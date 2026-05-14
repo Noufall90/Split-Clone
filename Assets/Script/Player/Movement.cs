@@ -56,7 +56,6 @@ public class movement : MonoBehaviour
         isDashing = true;
 
         dust.Play();
-        Debug.Log(dust.isPlaying);
 
         rb.velocity = moveDirection * dashSpeed;
 
